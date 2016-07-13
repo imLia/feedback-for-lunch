@@ -1,0 +1,242 @@
+body{
+  width:100%;
+  font-family: Arial;
+}
+
+/*Start of Header*/
+.container-header{
+  margin:0 auto;
+  background-color: #3D8EB9;
+  border-bottom: 2px solid #ececec;
+}
+header{
+  width:80%;
+  margin:0 auto;
+}
+header h1{
+  padding-bottom: 70px;
+  padding-top: 5px;
+}
+nav{
+  margin:0 0 20px 20px;
+  display:inline-block;
+}
+nav ul li{
+  display:inline;
+  padding: 10px;
+}
+nav a{
+  color:white;
+  text-decoration: none;
+  font-weight:700;
+  font-family: Verdana;
+  padding:inherit;
+}
+nav a:hover{
+  background-color: white;
+  color: #3D8EB9;
+  transition: .7s background-color;
+  border-bottom: 3px solid #59ABE3;
+}
+/*end of header*/
+
+/*Start of Main Content*/
+.container-content{
+  width:80%;
+  margin:0 auto;
+}
+.container-content h1, .container-content h4{
+  text-align: right;
+  padding-right: 15px;
+}
+.container-content h4{
+  font-weight:500;
+  font-size: 0.9em;
+}
+.ul-images
+{
+  padding-top:3%;
+  width:100%;
+  position: absolute;
+  padding-left: 65%;
+}
+.container-content ul li:hover{
+  opacity: 0.7;
+}
+.container-content li img{
+  width:50px;
+  display: inline-block;
+  float:left;
+  margin-left: 10px;
+}
+.container-content h1, .container-comments section h3{
+  font-family: Verdana;
+  font-weight: 800;
+  font-size: 1.3em;
+  padding-top: 20px;
+}
+.container-content .meal, .container-comments{
+  width:100%;
+}
+.container-content h5{
+  font-size: 1em;
+  font-weight: 700;
+  padding-top: 20px;
+}
+.navigatemymeal ul {
+  display: inline-block;
+  margin: 15px 0 15px 0;
+}
+.navigatemymeal li {
+  float: left;
+  margin: 0 25px;
+  width: 30px;
+  cursor: pointer;
+  list-style-type: disc;
+}
+/*End of main content*/
+
+/*Start of Comments section*/
+.container-comments{
+  border-top: 1px solid #ececec;
+  font-weight:600;
+  width:100%;
+  padding-top: 20px;
+}
+.commentscontainer{
+  width: 80%;
+  margin: 0 auto;
+}
+.comments-form{
+  width:50%;
+  float:left;
+}
+.label
+{
+  width: 50%;
+  border-radius: 1px 1px 1px 1px;
+  padding: 5px;
+  padding-left:20px;
+  margin:20px 0 10px 10px;
+}
+.button
+{
+  width: 100px;
+  height:29px;
+  padding: 3px 3px;
+  margin-left: 60%;
+  margin-top: 5px;
+}
+.textarea
+{
+  /*background-image: url('images/paper.jpg');*/
+  padding-left: 20px;
+  padding-top: 20px;
+  line-height: 2;
+  height: 60%;
+  width: 70%;
+  border-radius: 5px 5px 5px 5px;
+  margin-left:10px;
+  resize: none;
+}
+.feedback-container-inner
+{
+
+  width: 40%;
+  display: inline-block;
+  margin-bottom: 5%;
+}
+.feedback-container-inner h2
+{
+
+  margin-bottom: 2%;
+
+}
+.feedback-container-inner  label
+{
+  border: 1px solid black;
+  display:inline-block;
+  width: 100%;
+  padding:10px;
+
+}
+.feedback-container-inner  p
+{
+  text-align: center;
+  font-weight: normal;
+  font-style: italic;
+}
+.feedback-container-inner li:last-child
+{
+  border-bottom: 0px solid black;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  padding-bottom:0px;
+}
+.numberofratings
+{
+  display: inline-block;
+}
+.numberofratings h2
+{
+  margin-bottom: 2%;
+}
+.numberofratings th
+{
+  width: 20%;
+  border: 1px solid black;
+  padding: 1px;
+}
+/*end of comments section*/
+
+/*start of footer section*/
+.container-comments:after{
+  content:"";
+  display:block;
+  overflow:hidden;
+  height:10px;
+  clear:both;
+}
+.container-footer{
+  margin-top: 20px;
+  border-top: 2px solid #ececec;
+  background-color: #3D8EB9;
+  padding-top:20px;
+}
+
+.container-footer footer h2{
+  font-family: verdana;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom:10px;
+}
+.container-footer section, footer{
+  width: 80%;
+  margin:0 auto;
+}
+.container-footer section, footer{
+  width: 80%;
+  margin:0 auto;
+}
+.container-footer, .container-footer a{
+  color:#fff;
+}
+.container-footer li{
+  display:inline;
+}
+.container-footer footer{
+  text-align: center;
+}
+.container-footer ul{
+  padding:0;
+  margin:10px;
+}
+.facebook-logo, .twitter-logo, .google-plus-logo, .linkedin-logo, .youtube-logo{
+  width:56px;
+  height:0;
+  background-size:56px;
+  padding-top:56px;
+  display:inline-block;
+  overflow:hidden;
+  font-size:14px;
+}

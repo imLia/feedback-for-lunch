@@ -1,0 +1,29 @@
+.logo{
+  background: url("../../images/acomm_logo.png") no-repeat;
+  width:250px;
+  background-size:250px;
+  padding-top:200px;
+  float:left;
+  height:0;
+  overflow:hidden;
+}
+.textarea
+{
+	background-image: url('../images/paper.jpg');
+}
+
+.facebook-logo{
+  background: url("../../images/facebook.png") no-repeat;
+}
+.twitter-logo{
+background: url("../../images/Twitter.png") no-repeat;
+}
+.google-plus-logo{
+background: url("../../images/Google Plus.png") no-repeat;
+}
+.linkedin-logo{
+background: url("../../images/Linkedin.png") no-repeat;
+}
+.youtube-logo{
+background: url("../../images/Youtube.png") no-repeat;
+}
