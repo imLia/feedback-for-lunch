@@ -14,7 +14,7 @@ Checkout this repo, install dependencies, then start the app with the following:
 
 ```
 	> git clone https://angelica_celis@bitbucket.org/angelica_celis/feedback-for-lunch-react.git
-	> cd Feedback for Lunch (React)
+	> cd feedback-for-lunch-react
 	> npm install
 	> npm start
 ```
