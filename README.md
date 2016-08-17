@@ -13,7 +13,7 @@ https://git-scm.com/downloads
 Checkout this repo, install dependencies, then start the app with the following:
 
 ```
-	> git clone https://angelica_celis@bitbucket.org/angelica_celis/feedback-for-lunch-react.git
+	> git clone https://github.com/imLia/feedback-for-lunch.git
 	> cd feedback-for-lunch-react
 	> npm install
 	> npm start
